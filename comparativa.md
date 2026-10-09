@@ -1,0 +1,10 @@
+## Comparativa
+| Aspecto | RFC 3227 | NIST SP 800-86 | Manual ENFSI |
+| --- | --- | --- | --- |
+| ¿Qué entiende por identificar? | Localizar los sistemas implicados en el incidente y determinar dónde puede encontrarse información que se pueda considerar relevante y que pueda ser admisible como prueba. | Identificar todas las posibles fuentes de datos relacionadas con el incidente, no solo el equipo investigado. | En primer lugar hay que evaluar la escena, reconocer los dispositivos y elementos que pueden contener información relevante y decidir cómo actuar sobre ellos. |
+| ¿Qué fuentes de evidencia menciona? | Registros de CPU, memoria RAM, procesos, conexiones de red, discos duros, registros remotos, topología de red y medios de archivo. | Ordenadores, servidores, dispositivos móviles, memoria, archivos, registros de sistemas y aplicaciones, tráfico de red, copias de seguridad y servicios externos. | Dispositivos digitales, sistemas informáticos, conexiones y configuraciones de red, datos almacenados y datos accesibles durante la intervención. |
+| ¿Qué criterio propone para decidir qué se protege primero? | La volatilidad, es decir, recoger primero los datos que desaparecen más rápidamente y continuar con los más persistentes. | Valorar el valor probable de la evidencia y el esfuerzo necesario para adquirirla. | Evaluar el estado de los dispositivos, así como los riesgos de pérdida o alteración de datos y las condiciones de la escena. |
+---
+#### En qué coinciden y en qué se diferencian
+
+Todas las normas coinciden en que es necesario identificar las fuentes, realizar una planificación y evitar en la medida de lo posible la pérdida de datos o que se modifiquen. La RFC 3227 se centra en recoger primero los datos que pueden desaparecer antes, como la memoria RAM. El NIST insiste en que las pruebas no están solo en el ordenador, si no que también pueden estar en servidores, copias de seguridad y demás y el ENFSI se centra más en cómo prepararse y cómo actuar cuando llegamos al lugar.
