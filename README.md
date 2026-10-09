@@ -2,4 +2,4 @@
 
 - [Comparativa](comparativa.md)
 - [Lista de comprobación](lista-comprobacion.md)
-- [Plan Almadraba](plan-almadraba.md)cle
+- [Plan Almadraba](plan-almadraba.md)
