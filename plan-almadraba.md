@@ -1,5 +1,5 @@
 # Plan Almadraba
-
+ñ
 ## Urgencias del caso
 
 El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescribirse en aproximadamente una semana y los equipos activos pueden contener datos volátiles. También hay que pedir cuanto antes la conservación de información a terceros, como Bahía Sistemas y la administración del edificio.
@@ -22,13 +22,13 @@ El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescr
 
 ### En la empresa y servicios externos
 
-- Servidor de ficheros: almacena los documentos de los proyectos. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
-- OneDrive: puede contener archivos sincronizados, versiones y actividad relacionada con los documentos. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
-- Cortafuegos: sus registros de conexiones pueden ayudar a reconstruir lo ocurrido, pero se sobrescriben aproximadamente cada semana. Puntos 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 15 (NIST SP 800-86 §3.1.2).
-- NAS de copias de seguridad: conserva las últimas catorce copias nocturnas, que podrían permitir comparar versiones de los archivos. Puntos 8 (NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 15 (NIST SP 800-86 §3.1.2).
-- Portal de Microsoft: puede ser necesario solicitar las claves de recuperación de BitLocker para acceder al contenido del portátil si está cifrado. Puntos 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 19 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
-- VPN y sistemas gestionados por Bahía Sistemas: podrían existir registros de conexiones remotas, accesos y actividad de mantenimiento. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
-- Correo electrónico y servicios de comunicación: además de WhatsApp, podrían existir mensajes o archivos enviados por correo relacionados con el render. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
+- El servidor de ficheros que almacena los documentos de los proyectos. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
+- El OneDrive puede contener archivos sincronizados, versiones y actividad relacionada con los documentos. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
+- El cortafuegos, sus registros de conexiones pueden ayudar a reconstruir lo ocurrido, pero se sobrescriben aproximadamente cada semana. Puntos 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 15 (NIST SP 800-86 §3.1.2).
+- NAS de copias de seguridad que conserva las últimas catorce copias nocturnas, que podrían permitir comparar versiones de los archivos. Puntos 8 (NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 15 (NIST SP 800-86 §3.1.2).
+- El portal de Microsoft, puede ser necesario solicitar las claves de recuperación de BitLocker para acceder al contenido del portátil si está cifrado. Puntos 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 19 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
+- VPN y sistemas gestionados por Bahía Sistemas, podrían existir registros de conexiones remotas, accesos y actividad de mantenimiento. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
+- Correo electrónico y servicios de comunicación en los que podrían existir mensajes o archivos enviados por correo relacionados con el render. Puntos 8 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
 
 ### Fuera de la oficina
 
@@ -52,17 +52,11 @@ El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescr
 -----
 
 - Registros del cortafuegos. Contactaría con Bahía Sistemas para solicitar que exporten y conserven los registros disponibles, especialmente los correspondientes al día 14 y a los días cercanos. También pediría que indiquen cuánto tiempo se conservan y cómo se pueden obtener sin modificarlos. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 20 (RFC 3227 §3.2 y §4.1).
-
 - Portátil de Marta y memoria RAM. Fotografiaría su estado y anotaría que está encendido y bloqueado, así como los dispositivos conectados. No lo apagaría, reiniciaría ni desconectaría del dock sin valorar antes cómo capturar los datos volátiles. La adquisición de la memoria debe realizarla personal preparado, utilizando herramientas adecuadas y documentando cualquier cambio que provoque. Puntos 3 (ENFSI §8.2), 9 (RFC 3227 §2.1 y §2.2), 10 (RFC 3227 §2.2 y ENFSI §9.2) y 16 (RFC 3227 §2.1 y §2.2, y ENFSI §9.2).
-
 - Historial de la impresora multifunción. Pediría que no se borre ni se reinicie el historial de trabajos. Solicitaría a la persona responsable que conserve los registros existentes y que informe sobre su periodo de retención. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 20 (RFC 3227 §3.2 y §4.1).
-
 - Microsoft 365, OneDrive y correo electrónico. Solicitaría a Bahía Sistemas o al administrador correspondiente que preserve los registros de actividad y las versiones de archivos relevantes. Antes de acceder a cuentas o cerrar sesiones, documentaría su estado y comprobaría qué actuaciones están autorizadas. Puntos 8 (NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 18 (RFC 3227 §2 y §2.2).
-
 - Disco externo de 2 TB e iPhone de empresa. Documentaría su estado y sus conexiones. Evitaría desconectarlos o manipularlos sin planificar antes su adquisición, ya que podría perderse información o modificarse su contenido. Para el móvil, tendría en cuenta que las medidas de aislamiento pueden afectar a los datos o servicios y deben decidirse según el riesgo. Puntos 3 (ENFSI §8.2), 10 (RFC 3227 §2.2 y ENFSI §9.2), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 16 (RFC 3227 §2.1 y §2.2, y ENFSI §9.2).
-
 - Servidor de ficheros y NAS de copias de seguridad. Pediría a Bahía Sistemas que evite las operaciones de limpieza o cambios innecesarios que puedan afectar a los datos relevantes. Identificaría las copias nocturnas disponibles y solicitaría que se preserven las versiones necesarias antes de que sean sustituidas por nuevas copias. Puntos 8 (NIST SP 800-86 §3.1.1), 17 (RFC 3227 §2.1 y §3.2, y NIST SP 800-86 §3.1.2) y 20 (RFC 3227 §3.2 y §4.1).
-
 - Documentación de todas las actuaciones. Durante todo el proceso anotaría las horas, las personas que intervienen, las decisiones tomadas, los dispositivos recogidos y cualquier modificación producida. Cuando se adquieran los datos, utilizaría hashes u otras comprobaciones de integridad cuando corresponda y mantendría la cadena de custodia. Puntos 12 (RFC 3227 §2) y 20 (RFC 3227 §3.2 y §4.1).
 
 ## 4. Los límites
