@@ -5,7 +5,7 @@
 El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescribirse en aproximadamente una semana y los equipos activos pueden contener datos volátiles. También hay que pedir cuanto antes la conservación de información a terceros, como Bahía Sistemas y la administración del edificio.
 
 ## 1. Las fuentes de evidencia
-
+-----
 ### En el puesto de Marta
 
 - El portátil de la empresa puede contener el render, archivos recientes, historial de actividad, documentos y rastros de posibles copias o transferencias. Puntos 6 (NIST SP 800-86 §3.1.1) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
@@ -35,6 +35,7 @@ El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescr
 - Cámara del pasillo y grabador de conserjería: la administración del edificio podría conservar imágenes de las entradas y salidas, especialmente del día 14. Hay que pedir que se preserven cuanto antes porque podrían borrarse automáticamente. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1), 15 (NIST SP 800-86 §3.1.2) y 19 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
 
 ## 2. La prioridad
+-----
 
 - Memoria RAM y actividad del portátil de Marta. El portátil está encendido y bloqueado. Si se apaga o reinicia, pueden perderse datos volátiles, como procesos activos, conexiones de red y sesiones abiertas. Antes de actuar, hay que valorar cómo preservar esa información sin alterar innecesariamente el equipo. Puntos 9 (RFC 3227 §2.1 y §2.2), 14 (RFC 3227 §2.1), 16 (RFC 3227 §2.1 y §2.2, y ENFSI §9.2) y 17 (RFC 3227 §2.1 y §3.2, y NIST SP 800-86 §3.1.2).
 - Grabaciones de la cámara del pasillo. Debemos contactar cuanto antes con la administración del edificio para que conserve las imágenes del día 14. No sabemos cuánto tiempo se guardan, por lo que podrían desaparecer antes de que podamos solicitarlas formalmente. Puntos 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1), 15 (NIST SP 800-86 §3.1.2) y 19 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
@@ -48,6 +49,7 @@ El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescr
 - Sobremesa compartido de la entrada. Debe documentarse la sesión de Outlook abierta y evitar que alguien la cierre o la utilice antes de valorar qué hacer. Como pertenece a otra compañera, hay que limitar cualquier actuación a lo autorizado. Puntos 1 (RFC 3227 §2.3 y §2.4), 7 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1), 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1) y 16 (RFC 3227 §2.1 y §2.2, y ENFSI §9.2).
 
 ## 3. Las medidas inmediatas
+-----
 
 - Registros del cortafuegos. Contactaría con Bahía Sistemas para solicitar que exporten y conserven los registros disponibles, especialmente los correspondientes al día 14 y a los días cercanos. También pediría que indiquen cuánto tiempo se conservan y cómo se pueden obtener sin modificarlos. Puntos 8 (NIST SP 800-86 §3.1.1), 11 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 20 (RFC 3227 §3.2 y §4.1).
 
@@ -74,6 +76,7 @@ El caso tiene dos urgencias claras: el registro del cortafuegos podría sobrescr
 - Documentación de todas las actuaciones. Durante todo el proceso anotaría las horas, las personas que intervienen, las decisiones tomadas, los dispositivos recogidos y cualquier modificación producida. Cuando se adquieran los datos, utilizaría hashes u otras comprobaciones de integridad cuando corresponda y mantendría la cadena de custodia. Puntos 12 (RFC 3227 §2) y 20 (RFC 3227 §3.2 y §4.1).
 
 ## 4. Los límites
+-----
 
 - **Móvil personal de Marta**. No deberíamos revisar su contenido ni incautarlo automáticamente sin una autorización que permita examinarlo y aclare a qué partes del dispositivo podemos acceder. Puntos 1 (RFC 3227 §2.3 y §2.4) y 13 (RFC 3227 §3.2 y NIST SP 800-86 §3.1.1).
 - **Cuenta de Outlook abierta en el ordenador compartido**. La sesión pertenece a otro empleado, por lo que no debemos abrir correos, buscar mensajes ni utilizar la cuenta como si tuviéramos permiso para hacerlo. Podemos documentar que la sesión estaba abierta. Puntos 1 (RFC 3227 §2.3 y §2.4), 7 (RFC 3227 §2.1 y NIST SP 800-86 §3.1.1) y 16 (RFC 3227 §2.1 y §2.2, y ENFSI §9.2).
